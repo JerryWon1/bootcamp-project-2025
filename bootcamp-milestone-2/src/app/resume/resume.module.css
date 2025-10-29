@@ -1,0 +1,104 @@
+.pageContainer {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    background: #fff;
+    border-radius: 13px;
+    box-shadow: 0 4px 24px rgba(30, 60, 60, 0.13);
+}
+
+.header {
+    text-align: center;
+    font-size: 2rem;
+    color: #184b2d;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.section {
+    margin-bottom: 2.1rem;
+}
+
+.sectionTitle {
+    color: #267846;
+    font-size: 1.26rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.eduDegree {
+    font-weight: 600;
+    font-size: 1.07rem;
+    color: #184b2d;
+}
+
+.eduSchool {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0.7rem;
+}
+
+.expTitle {
+    font-weight: 600;
+    color: #184b2d;
+    margin-bottom: 0.2rem;
+}
+
+.expOrg {
+    font-size: 1rem;
+    color: #444;
+}
+
+.expList {
+    margin: 0.5rem 0 0 1.4rem;
+}
+
+.courseList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.courseItem {
+    background: #eafae4;
+    color: #267846;
+    padding: 0.28rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.97rem;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem 2.4rem;
+    align-items: start;
+    margin-top: 0.7rem;
+}
+
+.skillsGrid > div:last-child .skillList:last-child {
+    margin-bottom: 0;
+}
+
+.skillsTitle {
+    font-weight: 700;
+    color: #184b2d;
+    font-size: 1.06rem;
+    margin-bottom: 0.18rem;
+}
+
+.skillList {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+    color: #263238;
+}
+
+@media (max-width: 700px) {
+    .skillsGrid {
+        grid-template-columns: 1fr;
+    }
+    .pageContainer {
+        padding: 1.4rem 0.7rem;
+    }
+}
