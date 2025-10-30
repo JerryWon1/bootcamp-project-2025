@@ -1,0 +1,56 @@
+.blogCard {
+    background: #fff;
+    border-radius: 13px;
+    box-shadow: 0 2px 16px rgba(0, 20, 40, 0.1);
+    padding: 1.5rem 1.7rem;
+    transition: transform 0.1s, box-shadow 0.1s;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.blogCard:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 6px 28px rgba(0, 18, 36, 0.13);
+}
+
+.blogImage {
+    border-radius: 8px;
+}
+
+.blogInfo {
+    flex: 1;
+}
+
+.blogTitle {
+    font-size: 1.4rem;
+    margin: 0 0 0.3rem 0;
+    color: #184b2d;
+}
+
+.blogDate {
+    color: #666;
+    font-size: 0.98rem;
+    margin-bottom: 0.8rem;
+}
+
+.blogDescription {
+    font-size: 1.08rem;
+    color: #263238;
+    margin-bottom: 0.7rem;
+}
+
+.readMore {
+    text-decoration: none;
+    color: #25855a;
+    background: #eafae4;
+    padding: 0.45rem 1.05rem;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: background 0.15s, color 0.15s;
+}
+
+.readMore:hover {
+    background: #184b2d;
+    color: #fff;
+}

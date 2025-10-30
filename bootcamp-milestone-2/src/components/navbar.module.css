@@ -16,8 +16,9 @@
 
 /* Navigation list */
 .navbarList {
+    background: #34734c;
     list-style-type: none;
-    padding: 0;
+    padding: 20px 40px;
     margin: 0;
     display: flex;
     gap: 2rem;

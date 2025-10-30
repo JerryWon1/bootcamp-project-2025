@@ -13,7 +13,7 @@ export default function ResumePage() {
                 <div className={styles.eduSchool}>
                     California Polytechnic State University, San Luis Obispo{" "}
                     <br />
-                    <em>Expected Graduation June 2028</em>
+                    <em>Expected Graduation June 2027</em>
                 </div>
             </section>
 
